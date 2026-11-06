@@ -1,0 +1,107 @@
+/* Background Utama Halaman Pink Pastel */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f3 !important;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* Judul Blok Panjang: Background Pink Tua, Teks Putih */
+.title-block {
+    background-color: #c25975 !important;
+    color: #ffffff !important;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid #cc0000 !important;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+/* Pengaturan Tabel Utama agar Menyerupai Kotak Bergaris */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #cc0000 !important;
+    border-top: none !important;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table td {
+    border: 2px solid #cc0000 !important;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+/* 1. Jenis-jenis Buah: Jingga Pastel */
+.buah-box td {
+    background-color: #ffcc99 !important;
+    color: #5a3e1b !important;
+}
+
+/* 2. Macam-Macam Makanan: Hijau Pastel */
+.makanan-box td {
+    background-color: #c1e1c1 !important;
+    color: #2e5a27 !important;
+}
+
+/* 3. Macam-Macam Minuman: Pink Tua */
+.minuman-box td {
+    background-color: #c25975 !important;
+    color: #ffd1dc !important;
+}
+
+/* 4. Jenis-jenis Ikan: Ungu Pastel */
+.menu-box td {
+    background-color: #e6e6fa !important;
+    color: #4b0082 !important;
+}
+
+/* 5. Lorem Ipsum Dolor: Biru Pastel */
+.lorem-box td {
+    background-color: #d0f0fd !important;
+    color: #1d3557 !important;
+    font-weight: normal;
+}
+
+/* 6. Icon di HTML: Kuning Pastel */
+.icon-box td {
+    background-color: #fdfd96 !important;
+    color: #4a4a00 !important;
+}
+
+.icon-td {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-table svg {
+    fill: currentColor !important;
+}
+
+/* Styling Navigasi & Footer */
+.topnav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #c25975;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    color: #c25975;
+    font-weight: bold;
+    margin-top: 30px;
+}

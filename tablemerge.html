@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Layout Tabel HTML & CSS</title>
+    <link rel="stylesheet" href="tablemerge.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- TABEL 1: TABLE MERGE -->
+        <div class="section-container">
+            <h2>Tugas Layout Tabel HTML & CSS (Table Merge)</h2>
+            <table>
+                <tr>
+                    <td rowspan="4" class="type-light">1</td>
+                    <td colspan="2" class="type-light">2</td>
+                    <td colspan="2" class="type-light">3</td>
+                    <td rowspan="3" class="type-light">4</td>
+                    <td rowspan="5" class="type-light">5</td>
+                    <td rowspan="2" class="type-light">6</td>
+                    <td rowspan="6" class="type-light">7</td>
+                </tr>
+                <tr>
+                    <td class="type-dark">8</td>
+                    <td class="type-dark">9</td>
+                    <td colspan="2" class="type-dark">10</td>
+                </tr>
+                <tr>
+                    <td class="type-light">11</td>
+                    <td class="type-light">12</td>
+                    <td class="type-light">13</td>
+                    <td class="type-light">14</td>
+                    <td rowspan="3" class="type-light">15</td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="type-dark">16</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="type-light">17</td>
+                    <td colspan="2" class="type-light">18</td>
+                    <td rowspan="2" class="type-light">19</td>
+                    <td colspan="2" class="type-light">20</td>
+                </tr>
+                <tr>
+                    <td class="type-dark">21</td>
+                    <td class="type-dark">22</td>
+                    <td colspan="3" class="type-dark">23</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- TABEL 2: TABEL NILAI SISWA -->
+        <div class="section-container">
+            <h2>Tabel Nilai Siswa</h2>
+            <table class="nilai-table">
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">Nama Siswa</th>
+                    <th rowspan="2">Pelajaran</th>
+                    <th colspan="2">Nilai</th>
+                </tr>
+                <tr>
+                    <th>Ulangan 1</th>
+                    <th>Ulangan 2</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ray</td>
+                    <td>Matematika</td>
+                    <td>90</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Clara</td>
+                    <td>TIK</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Gwen</td>
+                    <td>IPS</td>
+                    <td>98</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Joanne</td>
+                    <td>Agama</td>
+                    <td>95</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Jessy</td>
+                    <td>IPA</td>
+                    <td>90</td>
+                    <td>95</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
